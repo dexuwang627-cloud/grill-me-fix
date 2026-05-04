@@ -26,15 +26,17 @@ Each fix also teaches you the property name and why it caused the problem — so
 
 ## Install
 
-Copy the skill into your Claude Code skills directory:
+```bash
+npx skills@latest add dexuwang627-cloud/grill-me-fix
+```
+
+Or manually copy the skill into your Claude Code skills directory:
 
 ```bash
 mkdir -p ~/.claude/skills/grill-me-fix
 curl -o ~/.claude/skills/grill-me-fix/SKILL.md \
   https://raw.githubusercontent.com/dexuwang627-cloud/grill-me-fix/main/skills/grill-me-fix/SKILL.md
 ```
-
-Or manually create `~/.claude/skills/grill-me-fix/SKILL.md` with the content from this repo.
 
 ## Usage
 
